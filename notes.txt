@@ -1,0 +1,41 @@
+List of Plug-Ins and Commands:
+    Telescope
+        Commands:
+            <leader>pf - Find Files
+            <C-p> - Find Git Files
+            <leader>ps - Grep
+
+    Treesitter
+        Commands:
+            :Inspect - to show the highlight groups under the cursor
+            :InspectTree - to show the parsed syntax tree
+            :EditQuery - to open the Live Query Editor
+
+    Undotree
+        Commands:
+            <leader>u - Triggers Undotree            
+
+    Fugitive
+        Commands:
+            <leader>gs - Open Fugitive
+
+    Harpoon
+        Commands:
+            <leader>a - Adds current file to harpoon list.
+            <C-e> - Shows harpoon list.
+            
+            <C-j> - Move to harpoon file 1.
+            <C-k> - Move to harpoon file 2.
+            <C-l> - Move to harpoon file 3.
+            <C-;> - Move to harpoon file 4.
+
+    LSP
+        Plug-Ins:
+            Mason
+            Mason-lspconfig
+            nvim-lspconfig
+        Commands:
+            K - Show Description
+            gr - Open Telescope for LSP References
+            gd - Show Definition
+            gi - Show Implementation
